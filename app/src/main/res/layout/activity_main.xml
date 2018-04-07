@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <ImageView
+        android:id="@+id/shopimage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_aligntParentRight="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/shop" />
+
+    <ImageView
+        android:id="@+id/icon_info"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/shopimage"
+        android:layout_marginLeft="16dp"
+        android:background="@android:color/black"
+        android:scaleType="centerCrop"
+        android:src="@drawable/info" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/shopimage"
+        android:layout_toRightOf="@id/icon_info"
+        android:background="@android:color/black"
+        android:fontFamily="serif"
+        android:paddingLeft="16dp"
+        android:text="We offer a line of lifestyle watches for the working man who appreciates quality "
+        android:textColor="#FFFFFF"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/icon_hours"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/icon_info"
+        android:layout_marginLeft="16dp"
+        android:background="@android:color/black"
+        android:scaleType="centerCrop"
+        android:src="@drawable/time" />
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/icon_info"
+        android:layout_toRightOf="@id/icon_hours"
+        android:background="@android:color/black"
+        android:fontFamily="serif"
+        android:paddingLeft="16dp"
+        android:text="10 A.M. - 9 P.M."
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/icon_contact"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/icon_hours"
+        android:layout_marginLeft="16dp"
+        android:background="@android:color/black"
+        android:scaleType="centerCrop"
+        android:src="@drawable/phone" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/icon_hours"
+        android:layout_toRightOf="@id/icon_contact"
+        android:background="@android:color/black"
+        android:fontFamily="serif"
+        android:paddingLeft="16dp"
+        android:text="+66 093 830 2737"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/icon_map"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/icon_contact"
+        android:layout_marginLeft="16dp"
+        android:background="@android:color/black"
+        android:scaleType="centerCrop"
+        android:src="@drawable/map" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/icon_contact"
+        android:layout_toRightOf="@id/icon_map"
+        android:background="@android:color/black"
+        android:fontFamily="serif"
+        android:paddingLeft="16dp"
+        android:text="188 Trang-Palian Road, Koklor, Muang Trang, Trang, 92000"
+        android:textColor="#FFFFFF" />
+
+
+    <ImageView
+        android:id="@+id/icon_web"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/icon_map"
+        android:layout_marginLeft="16dp"
+        android:background="@android:color/black"
+        android:scaleType="centerCrop"
+        android:src="@drawable/web" />
+
+    <TextView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/icon_map"
+        android:layout_toRightOf="@id/icon_web"
+        android:background="@android:color/black"
+        android:fontFamily="serif"
+        android:paddingLeft="16dp"
+        android:text="http://www.fossil.com"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>
+
